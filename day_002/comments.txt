@@ -1,0 +1,55 @@
+A comment is text in code that the compiler/ interpreter ignores- it's there for
+humans to read not for the program to run.
+Why use comments:
+1. Explain what a piece of code does.
+2. Leave notes for yourself or others.
+3. Temporarily disable a line of code without deleting it.
+Types:
+1. single line comments:
+    // symbol is used to write single line comments.
+
+    example:
+    int age = 20; // stores the user's age
+
+2. multi-line comments:
+    /*is used to 
+    write multi-line
+    comments.*/
+
+    example:
+    /* This program calculates the area
+       of a rectangle using length and width. */
+    int length = 5;
+    int width = 3;
+
+3. javadoc comments:
+    javadoc comment is a special type of multi line comments used to document classes, methods, 
+    and field in java. it starts with /** (two asterisks) and ends with */ .
+
+    example:
+    /**
+     * Calculates the sum of two numbers.
+     * @param a the first number
+     * @param b the second number
+     * @return the sum of a and b
+     */
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    common javadoc tags:
+    @param  - describes a method parameter
+    @return - describes what the method returns
+    @author - names the writer of the class
+
+Best practices:
+1. Comment the "why", not the "what" - the code already shows what it does;
+   a good comment explains the reasoning behind it.
+2. Don't state the obvious. Example of a bad comment:
+    int age = 20; // set age to 20
+3. Keep comments updated. A comment that no longer matches the code is
+   worse than no comment at all, since it misleads the reader.
+4. Comments support clear code, they don't replace it. Code that needs
+   heavy commenting to be understood should usually be rewritten to be
+   clearer first.
+    
