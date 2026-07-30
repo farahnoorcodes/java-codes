@@ -8,6 +8,12 @@ public class printing_tips {
         System.out.println(8+7);//output: 15 , it can do mathematical operation own it's own.
         System.out.println("6+7");//output: 6+7 , because it is in double qoutes, it will be treated as string(word, letter, sentence)
         System.out.println("8");// output: 8, but you can do any operation with it , cuz its a string now
+
+        System.out.println("name:\tfarah");// \t adds a tab space between "name:" and "farah". output: name:    farah
+        System.out.println("line1\nline2");// \n breaks the line in the middle of the text, like pressing Enter. output: line1 on one line, line2 on the next.
+        System.out.println("hello\tworld\nnice to meet you");// you can use \t and \n together in the same string.
+
+        
     }
     
 }
